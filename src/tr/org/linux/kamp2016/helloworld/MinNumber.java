@@ -3,7 +3,7 @@ package tr.org.linux.kamp2016.helloworld;
 public class MinNumber {
 
 	
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int a=8;
 		int b=10;
 		int c= minFuction(a, b);

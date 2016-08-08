@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SumArray {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int number;
 		int number1;
 		Scanner n = new Scanner(System.in);

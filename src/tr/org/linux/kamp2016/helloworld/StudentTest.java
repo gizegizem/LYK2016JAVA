@@ -1,7 +1,7 @@
 package tr.org.linux.kamp2016.helloworld;
 
 public class StudentTest {
-	public static void main(String args[]) {
+	public static void main(StringExample args[]) {
 
 		Student student1 = new Student("Ali Veli", 93);
 		Student student2 = new Student("Binary Thunderbolt", 77);

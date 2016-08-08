@@ -2,7 +2,7 @@ package tr.org.linux.kamp2016.helloworld;
 
 public class CokboyutluArray {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int[][] board = new int[4][4];
 		int counter = 0;
 		for (int i = 0; i < board.length; i++) {

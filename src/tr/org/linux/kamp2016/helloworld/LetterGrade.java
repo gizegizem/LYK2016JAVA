@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LetterGrade {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int total = 0;
 		int gradeCounter = 0;
 		int aCount = 0;

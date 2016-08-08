@@ -2,7 +2,7 @@ package tr.org.linux.kamp2016.helloworld;
 
 public class CarpimTablosu {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		//int[][] multitable = initializeMultiplicationTable(10,10);
 		arayToPrint(initializeMultiplicationTable(10,10));
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class AnimallTest {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Animall animal1 = new Animall("Pamuk", 25, "Van Kedisi");
 		System.out.println("Hayvanın adı: " + animal1.getName() + " Yaşı: "
 				+ animal1.getAge() + " Cinsi: " + animal1.getType());

@@ -1,7 +1,7 @@
 package tr.org.linux.kamp2016.helloworld;
 
 public class Interest {
-    public static void main(String[] args) {
+    public static void main(StringExample[] args) {
 
         double amount;
         double principal = 1000.0; // faizden öncesi bakiye

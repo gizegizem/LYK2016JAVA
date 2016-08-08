@@ -3,7 +3,7 @@ package tr.org.linux.kamp2016.helloworld;
 public class MathLibrary {
 
 	
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		
 		int i=7;
 		int j=-9;

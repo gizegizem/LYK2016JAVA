@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Array {
 
 	
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		/*int a=1;
 		int b=5;
 		int c=6;

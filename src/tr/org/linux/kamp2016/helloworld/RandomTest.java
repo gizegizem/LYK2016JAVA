@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RandomTest {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 
 		double randomNumber = Math.random();
 		double randomNumber2 = (Math.random()*50)+1;

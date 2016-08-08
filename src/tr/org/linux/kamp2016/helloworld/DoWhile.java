@@ -2,7 +2,7 @@ package tr.org.linux.kamp2016.helloworld;
 
 public class DoWhile {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int counter = 1;
 		do {
 			System.out.println(counter);

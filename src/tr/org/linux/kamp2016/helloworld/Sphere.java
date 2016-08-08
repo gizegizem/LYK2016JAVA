@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Sphere {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Kürenin Yarıçapını giriniz: ");
 		try {

@@ -2,7 +2,7 @@ package tr.org.linux.kamp2016.helloworld;
 
 public class MutableTest {
 
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Mutable mut =new Mutable(30);
 		Immutable immut =new Immutable(55);
 		

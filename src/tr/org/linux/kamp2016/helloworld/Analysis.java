@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Analysis {
 
 	
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Scanner input=new Scanner(System.in);
 		int passes= 0;
 		int failures =0;

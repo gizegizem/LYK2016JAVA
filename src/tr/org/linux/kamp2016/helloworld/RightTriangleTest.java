@@ -10,7 +10,7 @@ public class RightTriangleTest {
 		int random =(int) (min + rgen.nextInt(range));
 		return random;
 	}
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		
 		/*RightTriangle obje=new RightTriangle(8,15);
 		System.out.println("Hipotenüs: " + obje.hypotenuse());

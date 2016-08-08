@@ -3,7 +3,7 @@ package tr.org.linux.kamp2016.helloworld;
 public class DiceTest {
 
 	
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Dice player1 =new Dice();
 		Dice player2=new Dice();
 		player1.roll();

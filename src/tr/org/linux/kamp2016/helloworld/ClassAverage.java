@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ClassAverage {
 
-	public static void main(String args[]) {
+	public static void main(StringExample args[]) {
 		Scanner input = new Scanner(System.in);
 		int total = 0;
 		int gradeCounter = 1;
