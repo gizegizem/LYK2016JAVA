@@ -9,7 +9,7 @@ public class CheckValidNumber {
 			if (str[i].indexOf(".") > 0) {
 				try {
 					Double.parseDouble(str[i]);  //double olup olmadığını kontrol ediyor
-					System.out.println(str[i] + "geçerli bir double sayı gir!");
+					System.out.println(str[i] + " geçerli bir double sayıdır.");
 				} catch (NumberFormatException nme) {
 					System.out.println("geçerli değil...");
 				}
@@ -17,7 +17,7 @@ public class CheckValidNumber {
 			} else {
 				try {
 					Integer.parseInt(str[i]);  //ınteger olup olmadığını kontrl ediyor
-					System.out.println(str[i] + "geçerli bir integer sayı gir!");
+					System.out.println(str[i] + " geçerli bir integer sayıdır.");
 				} catch (NumberFormatException nme) {
 					System.out.println("geçerli br sayı değil...");
 				}
