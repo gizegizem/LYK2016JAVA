@@ -24,10 +24,6 @@ public class DiceTest {
 					+"Second Player has " + player2.getFaceValue() + "\n"
 					+ "Tie!Both Player has "+ player1.getFaceValue());
 		}
-		
-		
-		
-		
 	}
 
 }

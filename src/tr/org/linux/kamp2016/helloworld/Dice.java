@@ -12,7 +12,7 @@ public class Dice {
 	}
 	
 	public int roll(){
-		int dice= randomIntegerRandom(1, 6);
+		int dice= RandomTest.randomIntegerRandom(1, 6);
 		faceValue=dice;
 		return faceValue;
 	}
@@ -21,11 +21,11 @@ public class Dice {
 		return faceValue;
 	}
 
-	public static int randomIntegerRandom(int min, int max) {
+	/*public static int randomIntegerRandom(int min, int max) {
 		Random rgen = new Random();
 		int range = (int) (Math.abs(max - min) + 1);
 		int random =(int) (min + rgen.nextInt(range));
 		return random;
-	}
+	}*/
 	
 }
