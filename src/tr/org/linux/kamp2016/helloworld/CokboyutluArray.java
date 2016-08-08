@@ -1,6 +1,6 @@
 package tr.org.linux.kamp2016.helloworld;
 
-public class ÇokboyutluArray {
+public class CokboyutluArray {
 
 	public static void main(String[] args) {
 		int[][] board = new int[4][3];
