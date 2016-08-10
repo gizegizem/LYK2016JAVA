@@ -6,7 +6,8 @@ public class DateTimeApiTest {
 
 	public static void main(String[] args) {
 		DateTimeAPI dateTest = new DateTimeAPI();
-		dateTest.testLocalDateTime();
+		//dateTest.testLocalDateTime();
+		dateTest.testMethod();
 		
 	}
 
