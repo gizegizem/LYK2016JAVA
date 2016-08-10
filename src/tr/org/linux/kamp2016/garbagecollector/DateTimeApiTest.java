@@ -11,4 +11,6 @@ public class DateTimeApiTest {
 		
 	}
 
+	
+	//daysalive ChronoUnit.DAYS.between(dateExample,now);
 }
