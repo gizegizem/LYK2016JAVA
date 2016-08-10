@@ -29,7 +29,7 @@ public class Statistics {
 
 	public static double mean(HashMap<Integer, Integer> map) {
 		double answer = 0;
-		for (int i = 1; i <= map.size(); i++) { // for(Integer i:map.keySet())
+		for (int i = 1; i <= map.size(); i++) { // for(Integer i:map.keySet())    for(Integer i:map.Values())
 			answer += map.get(i);
 		}
 		return answer / map.size();
