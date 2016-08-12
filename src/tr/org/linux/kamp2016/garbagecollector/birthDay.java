@@ -18,9 +18,9 @@ public class birthDay {
 		System.out.println("Please enter your Birthday Year: ");
 		int year = input.nextInt();
 		
-		//LocalDateTime currentTime = LocalDateTime.now();
+		//LocalDateTime currentTime = LocalDate.now();
 		//LocalDate birthDate = LocalDate.of(year, month, day);
-		long daysAlive = ChronoUnit.DAYS.between(LocalDate.of(year, month, day),LocalDateTime.now());
+		long daysAlive = ChronoUnit.DAYS.between(LocalDate.of(year, month, day),LocalDate.now());
 		System.out.println("Your lives for "+daysAlive+" days!");
 
 	}
