@@ -1,8 +1,11 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Mammal extends Animal{
-
-	public void giveBirth(){System.out.println("Çocuğu olabilir");}
+public abstract class Mammal extends Animal{
+	
+	Mammal(String name){
+		super(name);
+	}
+	public abstract void  giveBirth();
 	
 	
 }

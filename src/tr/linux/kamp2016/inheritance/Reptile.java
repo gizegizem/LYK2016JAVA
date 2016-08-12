@@ -1,6 +1,10 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Reptile extends Animal{
+public abstract class Reptile extends Animal{
+	
+	Reptile(String name){
+		super(name);
+	}
 
-	public void crawl(){System.out.println("Sürünebilir");}
+	public abstract void clawl();
 }

@@ -1,23 +1,36 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Owl extends Bird{
-	String name;
+public class Owl extends Bird implements Carnivare{
 
-	public Owl(String name) {
-		this.name = name;
+
+	Owl(String name) {
+		super(name);
+		
 	}
 
-
-	public String getName() {
-		return name;
+	public void rotateHead270Degrees(){System.out.println("Baykuş kafasını 270 derece döndürebilir");}
+	
+	@Override
+	public void fly(){System.out.println("Baykuş uçabilir.");}
+	
+	public void hunt(){
+		System.out.println("avlanır.");
 	}
 
-
-	public void setName(String name) {
-		this.name = name;
+	@Override
+	void breath() {
+		System.out.println("Baykuş ağzından nefes alır.");
+		
+	}
+	@Override
+	void eat() {
+		System.out.println("Baykuş gagasıyla yemek yer");
 	}
 
-
-	public void rotateHead270Degrees(){System.out.println("kafasını 270 derece döndürebilir");}
+	@Override
+	void sleep() {
+		System.out.println("Baykuş ağaçta uyur");
+		
+	}
 	
 }

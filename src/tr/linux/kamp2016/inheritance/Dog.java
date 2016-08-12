@@ -1,17 +1,32 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Dog extends Mammal{
-	String name;
+public class Dog extends Mammal implements Carnivare{
 	
-	public Dog(String name) {
-		this.name = name;
+	Dog(String name) {
+		super(name);
+		
 	}
-	public String getName() {
-		return name;
+	public void bark(){System.out.println("Köpek havlayabilir");}
+	public void sniff(){System.out.println("Köpek Koklayabilir");}
+	
+	@Override
+	public void giveBirth(){System.out.println("Köpek aynı anda tek çocuk doğurabilir.");}
+	
+	public void hunt(){
+		System.out.println("avlanır.");
 	}
-	public void setName(String name) {
-		this.name = name;
+	@Override
+	void breath() {
+		System.out.println("Köpek dili dışarda nefes alır.");
+		
 	}
-	public void bark(){System.out.println("havlayabilir");}
-	public void sniff(){System.out.println("Koklayabilir");}
+	@Override
+	void eat() {
+		System.out.println("Köpek arka dişleri ile yemek yer");
+	}
+	@Override
+	void sleep() {
+		System.out.println("Köpek oturarak uyur");
+		
+	}
 }
