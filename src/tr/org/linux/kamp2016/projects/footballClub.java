@@ -1,4 +1,5 @@
-package tr.org.linux.kamp2016.oop;
+package tr.org.linux.kamp2016.projects;
+
 
 public class footballClub extends football{
 	String clubName,colors,stadiumName;
