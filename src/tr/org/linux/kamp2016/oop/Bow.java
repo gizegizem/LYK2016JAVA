@@ -1,4 +1,4 @@
-package tr.linux.kamp2016.oop;
+package tr.org.linux.kamp2016.oop;
 
 public class Bow extends Weapon implements Upgrade {
 	private int numArrows;

@@ -1,4 +1,4 @@
-package tr.linux.kamp2016.oop;
+package tr.org.linux.kamp2016.oop;
 
 public class Test {
 
