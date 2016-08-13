@@ -1,4 +1,4 @@
-package cardguessinggame;
+package tr.org.linux.kamp2016.cardguessinggame;
 
 /*
  * File: Card.java

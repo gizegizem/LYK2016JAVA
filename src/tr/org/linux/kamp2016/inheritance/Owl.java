@@ -1,4 +1,4 @@
-package tr.linux.kamp2016.inheritance;
+package tr.org.linux.kamp2016.inheritance;
 
 public class Owl extends Bird implements Carnivore{
 
