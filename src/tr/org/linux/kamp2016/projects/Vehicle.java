@@ -1,9 +1,9 @@
 package tr.org.linux.kamp2016.projects;
 
 public abstract class Vehicle {
-	String brand, model;
-	int speed, capacity, numberOfWheels;
-	boolean hasAerofoil, hasAutoPilot;
+	protected String brand, model;
+	protected int speed, capacity, numberOfWheels;
+	protected boolean hasAerofoil, hasAutoPilot;
 
 	public Vehicle(String brand, String model, int speed) {
 		this.brand = brand;

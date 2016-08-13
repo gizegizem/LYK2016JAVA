@@ -18,9 +18,9 @@ public class Plane extends Vehicle implements Driveable {
 	@Override
 	public String toString() {
 		return "Plane [maximumFeet=" + maximumFeet + ", flightCode="
-				+ flightCode + ", isAutoPilotActive=" + isAutoPilotActive
-				+ ", brand=" + brand + ", model=" + model + ", speed=" + speed
-				+ ", capacity=" + capacity + ", numberOfWheels="
+				+ flightCode + "\nisAutoPilotActive=" + isAutoPilotActive
+				+ "brand=" + brand + ", model=" + model + ", speed=" + speed
+				+ "\ncapacity=" + capacity + ", numberOfWheels="
 				+ numberOfWheels + ", hasAerofoil=" + hasAerofoil
 				+ ", hasAutoPilot=" + hasAutoPilot + "]";
 	}
