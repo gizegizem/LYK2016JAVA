@@ -1,6 +1,6 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Owl extends Bird implements Carnivare{
+public class Owl extends Bird implements Carnivore{
 
 
 	Owl(String name) {
@@ -8,28 +8,31 @@ public class Owl extends Bird implements Carnivare{
 		
 	}
 
-	public void rotateHead270Degrees(){System.out.println("Baykuş kafasını 270 derece döndürebilir");}
+	public void rotateHead270Degrees(){System.out.println(name+" Baykuş kafasını 270 derece döndürebilir");}
 	
 	@Override
-	public void fly(){System.out.println("Baykuş uçabilir.");}
+	public void fly(){System.out.println(name+" Baykuş uçabilir.");}
 	
 	public void hunt(){
-		System.out.println("avlanır.");
+		System.out.println(name+" avlanır.");
 	}
 
 	@Override
+	public
 	void breath() {
-		System.out.println("Baykuş ağzından nefes alır.");
+		System.out.println(name+" Baykuş ağzından nefes alır.");
 		
 	}
 	@Override
+	public
 	void eat() {
-		System.out.println("Baykuş gagasıyla yemek yer");
+		System.out.println(name+" Baykuş gagasıyla yemek yer");
 	}
 
 	@Override
+	public
 	void sleep() {
-		System.out.println("Baykuş ağaçta uyur");
+		System.out.println(name+" Baykuş ağaçta uyur");
 		
 	}
 	

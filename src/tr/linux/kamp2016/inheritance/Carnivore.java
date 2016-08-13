@@ -1,6 +1,6 @@
 package tr.linux.kamp2016.inheritance;
 
-public interface Carnivare {
+public interface Carnivore {
 	public void hunt();
 
 }

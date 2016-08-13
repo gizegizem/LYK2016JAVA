@@ -2,7 +2,7 @@ package tr.linux.kamp2016.inheritance;
 
 public abstract class Reptile extends Animal{
 	
-	Reptile(String name){
+	public Reptile(String name){
 		super(name);
 	}
 

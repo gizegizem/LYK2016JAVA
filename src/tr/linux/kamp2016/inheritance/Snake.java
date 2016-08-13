@@ -1,34 +1,43 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Snake extends Reptile implements Carnivare{
+public class Snake extends Reptile implements Carnivore,Herbivore{
 
 	Snake(String name) {
 		super(name);
 		
 	}
 
-	public void poison(){System.out.println("Yılan zehirleyebilir");}
+	public void poison(){System.out.println(name+" Yılan zehirleyebilir");}
 	
 	@Override
-	public void clawl(){System.out.println("Yılan sürünebilir.");}
+	public void clawl(){System.out.println(name+" Yılan sürünebilir.");}
 	
 	public void hunt(){
-		System.out.println("avlanır.");
+		System.out.println(name+" avlanır.");
 	}
 
 	@Override
+	public
 	void breath() {
-		System.out.println("Yılan nefes alır.");
+		System.out.println(name+" Yılan nefes alır.");
 		
 	}
 	@Override
+	public
 	void eat() {
-		System.out.println("Yılan dilinden yardım alarak ile yemek yer");
+		System.out.println(name+" Yılan dilinden yardım alarak ile yemek yer");
 	}
 
 	@Override
+	public
 	void sleep() {
-		System.out.println("Yılan kıvrılarak uyur");
+		System.out.println(name+" Yılan kıvrılarak uyur");
+		
+	}
+
+	@Override
+	public void investigatePlants() {
+		System.out.println(name+" ot arar,yer");
 		
 	}
 

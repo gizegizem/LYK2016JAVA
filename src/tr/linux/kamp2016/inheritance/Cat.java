@@ -1,35 +1,39 @@
 package tr.linux.kamp2016.inheritance;
 
-public class Cat extends Mammal implements Herbivare  {
-	
-	public String furColor;
-	Cat(String name,String furColor) {
+public class Cat extends Mammal implements Herbivore  {
+	String furColor;
+	String catPsychology;
+	String eyeColor;
+	int age;
+	Cat(String name,String catPsychology,String furColor,String eyeColor,int age) {
 		super(name);
 		this.furColor=furColor;
-		
+		this.catPsychology=catPsychology;
+		this.eyeColor=eyeColor;
+		this.age=age;
 	}
-public void claw(){System.out.println("Kedi Tırmayalabilir");}
-public void meow(){System.out.println("Kedi Miyavlayabilir");}
+public void claw(){System.out.println(name +" Tırmayalabilir");}
+public void meow(){System.out.println( name +" Miyavlayabilir");}
 
 @Override
-public void giveBirth(){System.out.println("Kedi aynı andan birden fazla çocuk doğurabilir");}
+public void giveBirth(){System.out.println(name+" Kedi aynı andan birden fazla çocuk doğurabilir");}
 
 public void investigatePlants(){
-	System.out.println("ot arar,yer");
+	System.out.println(name+" ot arar,yer");
 }
 @Override
-void breath() {
-	System.out.println("Kedi Ağzıyla nefes alır.");
+public void breath() {
+	System.out.println(name+" Kedi Ağzıyla nefes alır.");
 	
 }
 @Override
-void eat() {
-	System.out.println("Kedi ön dişleri ile yemek yer");
+public void eat() {
+	System.out.println(name+" Kedi ön dişleri ile yemek yer");
 	
 }
 @Override
-void sleep() {
-	System.out.println("Kedi ayakta uyur");
+public void sleep() {
+	System.out.println(name+" Kedi ayakta uyur");
 	
 }
 }

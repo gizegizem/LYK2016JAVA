@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public abstract class Animal {
 	String name;
 		
-	Animal() { }
-	Animal(String name) {
+	public Animal() {name="hayvan"; }
+	public Animal(String name) {
 		this.name = name;
 	}
-	abstract void breath();
-	abstract void eat();
-	abstract void sleep();	
+	public abstract void breath();
+	public abstract void eat();
+	public abstract void sleep();	
 
 }

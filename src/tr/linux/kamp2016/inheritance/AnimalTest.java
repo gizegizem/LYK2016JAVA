@@ -4,18 +4,22 @@ public class AnimalTest {
 	
 	public static void main(String args[]){
 		
-		Cat kedi = new Cat("boncuk","gri");
+		
+		Cat kedi1 = new Cat("boncuk","gri","mavi","efendi kedi",2);
+		Cat kedi2 = new Cat("deli kedi","beyaz","yeşil","yaramaz kedi",3);
 		Dog kopek = new Dog("tarçın");
 		Snake yilan = new Snake("uyuz");
 		Owl baykus = new Owl("gecekuşu");
+
+		/*Animal o=kedi1;
+		Carnivore c=kopek;
+		Object a=kedi2;*/
 		
-		System.out.println("kedinin adı: " + kedi.name);
-		System.out.println("kedinin rengi: " + kedi.furColor);
-		kedi.eat();
-		kedi.claw();
-		kedi.meow();
-		kedi.sleep();
-		kedi.investigatePlants();
+		kedi1.eat();
+		kedi1.claw();
+		kedi2.meow();
+		kedi2.sleep();
+		kedi1.investigatePlants();
 		System.out.println("***********************************************");
 		
 		System.out.println("Köpeğin adı: " + kopek.name);
@@ -42,13 +46,13 @@ public class AnimalTest {
 		baykus.eat();
 		baykus.fly();
 		System.out.println("***********************************************");
-		
-
-		
-
-		
-
-		
-
+		System.out.println("Kedi1 Memeli mi?"+isMammal(kedi1));
+		System.out.println("yılan memeli mi?"+isMammal(yilan));
+	}	
+	static boolean isMammal(Object obj){
+		if(obj instanceof Mammal)
+			return true;
+		else
+			return false;
 	}
 }

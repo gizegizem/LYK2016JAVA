@@ -1,6 +1,6 @@
 package tr.linux.kamp2016.inheritance;
 
-public interface Herbivare {
+public interface Herbivore {
 	void investigatePlants();
 
 }
