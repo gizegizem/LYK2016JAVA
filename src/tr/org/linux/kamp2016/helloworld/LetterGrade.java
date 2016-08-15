@@ -2,6 +2,8 @@ package tr.org.linux.kamp2016.helloworld;
 
 import java.util.Scanner;
 
+import tr.org.linux.kamp2016.string.StringExample;
+
 public class LetterGrade {
 
 	public static void main(StringExample[] args) {

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import tr.org.linux.kamp2016.helloworld.RandomTest;
+import tr.org.linux.kamp2016.random.RandomTest;
 
 //
 //In this question, your task is implementing a card guessing game. There are four card type
