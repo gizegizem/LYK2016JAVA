@@ -27,8 +27,8 @@ public class Application {
 			param = inputParams[1];
 		}
 
-		System.out.println("[debug] action: " + action);
-		System.out.println("[debug] param: " + param);
+		//System.out.println("[debug] action: " + action);
+		//System.out.println("[debug] param: " + param);
 
 		int index;
 		switch (action) {
