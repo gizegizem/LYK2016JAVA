@@ -3,10 +3,10 @@ package tr.org.linux.kamp2016.gece;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TodoHelper {
-	private static List<Todo> list = new ArrayList<>();
+public class TodoHelperGece {
+	private static List<TodoGece> list = new ArrayList<>();
 	
-	public static void add(Todo todo){
+	public static void add(TodoGece todo){
 		list.add(todo);
 	}
 	
@@ -18,7 +18,7 @@ public class TodoHelper {
 		list.remove(index);
 	}
 
-	public static List<Todo> getList() {
+	public static List<TodoGece> getList() {
 		return list;
 	}
 	

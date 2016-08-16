@@ -1,10 +1,10 @@
 package tr.org.linux.kamp2016.gece;
 
-public class Todo {
+public class TodoGece {
 	private String description;
 	private boolean done;
 
-	public Todo(String description) {
+	public TodoGece(String description) {
 		super();
 		this.description = description;
 	}
