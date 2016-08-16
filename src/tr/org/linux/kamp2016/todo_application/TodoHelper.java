@@ -30,6 +30,9 @@ public class TodoHelper {
 		todos.get(index).setDone(isDone);
 		// TODO you need to implement this method
 	}
+	public static void markAsUndone(int index, boolean isDone){
+		todos.get(index).setDone(isDone);
+	}
 
 	public static Iterator<Todo> getIterator() {
 		return todos.iterator();

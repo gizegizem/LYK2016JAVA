@@ -50,6 +50,9 @@ public class Application {
 			// hint: it's already implemented, you need to just call it (use it)
 			// here
 			break;
+		case 4:
+			index = Integer.parseInt(param);
+			TodoHelper.markAsUndone(index-1, false);
 
 		default:
 			break;
