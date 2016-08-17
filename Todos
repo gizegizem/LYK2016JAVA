@@ -1,0 +1,22 @@
+exceptions
+==========
+
+* input is empty   ****
+///////////try {
+			action = Integer.parseInt(inputParams[0]);
+		} catch (NumberFormatException e) {
+			System.out.println("ERROR : Input is not empty!\n");
+			return;
+		}
+//////////////
+* there is empty space ????
+* there is no comma********
+* action is not a number (a,2)*****
+* inexOutfBounds (there are 3 elemetns but input is: 2,5) ******
+* when action is 2|3|4 and param is not a number (2,hehe)*****
+
+validations
+===========
+
+* action is other than 0,1,2,3,4 (8,2)
+* if todo is already done it shouldn't be mark as done and vice versa ******
