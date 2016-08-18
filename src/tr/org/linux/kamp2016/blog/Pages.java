@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Pages {
-	private List<String> comments;
+	private static List<Comment> comments;
 	private String title;
 	private String body;
 	private String category;
@@ -21,12 +21,12 @@ public class Pages {
 		this.comments = new ArrayList();
 	}
 
-	public List<String> getComments() {
+	public static List<Comment> getComments() {
 		return comments;
 	}
 
-	public void setComments(List<String> comments) {
-		this.comments = comments;
+	public static void setComments(Comment comment) {
+		comments.add(comment);
 	}
 
 	public String getTitle() {
@@ -56,7 +56,7 @@ public class Pages {
 	public LocalDateTime getDate() {
 		return date;
 	}
-
+	
 
 	public static void createPage(){
 		Scanner input = new Scanner(System.in);
@@ -75,13 +75,31 @@ public class Pages {
 		System.out.println("Your page is created successfully");
 		System.out.println("------------------------------");
 	}
+	///////////////////////////////////////////////////////////SHOW PAGES
 	
-	public static void showPage(){
-		System.out.println("=====Showing Page======");
-		for(int i=0;i<PageHelper.getPageList().size();i++){
-			System.out.println(++i + "Title: "+PageHelper.getPageList().get(i).getTitle());
-			System.out.println("    Text: "+PageHelper.getPageList().get(i).getBody());
+	public static void showPage() {
+		System.out.println("=====Showing Pages======");
+		if(PageHelper.getPageList().size() == 0){
+			System.out.println("No such file");
+		}
+		int index = 1;
+		for (Pages page : PageHelper.getPageList()) {
+			System.out.println(index + "-) Title: " + page.getTitle());
+			index++;
 		}
 	}
+	///////////////////////////////////////////////////////////PRİNT PAGES
+	public static void printPages(List<Pages> pageList) {
+		System.out.println("=====Showing Pages======");
+		if(PageHelper.getPageList().size() == 0){
+			System.out.println("No such file");
+		}
+		int index = 1;
+		for (Pages page : PageHelper.getPageList()) {
+			System.out.println(index + "-) Title: "
+					+ pageList.get(index - 1).getTitle());
+			String summary = TextPost.getSummary();
 
+		}
+	}
 }

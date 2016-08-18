@@ -17,7 +17,4 @@ public class Menu {
 		System.out.println(menu.toString());
 		
 	}
-	
-	
-
 }

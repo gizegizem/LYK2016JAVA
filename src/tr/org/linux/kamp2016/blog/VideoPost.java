@@ -9,9 +9,9 @@ public class VideoPost extends Post {
 		setUrl(url);
 	}
 
-	private String url;
+	private static String url;
 
-	public String getUrl() {
+	public static String getUrl() {
 		return url;
 	}
 

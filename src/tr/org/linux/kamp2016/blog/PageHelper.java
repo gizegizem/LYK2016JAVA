@@ -13,10 +13,10 @@ public class PageHelper {
 	}
 
 	public static void addPost(Post post) {
-		if (post.getType().equals("VideoPost")) {
+		if (post instanceof VideoPost) {
 			videoPostList.add(post);
 		}
-		if (post.getType().equals("TextPost")) {
+		if (post instanceof TextPost){
 			textPostList.add(post);
 		}
 	}

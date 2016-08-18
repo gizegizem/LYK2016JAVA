@@ -19,13 +19,14 @@ public class Application {
 				Post.createPost();
 			}
 			if (action == 3) {
-				Comment.createlistPosts();
+				Post.printListPosts();
 			}
 			if (action == 4) {
 				Pages.showPage();
 			}
 			if (action == 5) {
-				// TODO call show posts method
+				Post.showVideoPost();
+				Post.showTextPost();
 			}
 		}
 
